@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  flex-direction: column !important;
+  width: 327px;
+}
+.illustration-hero {
+  width: 327px;
+  height: 160px;
+}
+.second-order-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px 24px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.15);
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+}
+.header {
+  font-size: 22px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f2e55;
+  margin-bottom: 16px;
+}
+.paragraph {
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #717fa6;
+  padding: 0 8px 0 8px;
+  margin-bottom: 24px;
+}
+.change {
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #382ae1;
+  text-decoration: underline;
+}
+.change:hover {
+  color: #766cf1;
+  cursor: pointer;
+  text-decoration: none;
+}
+.current-music {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding: 17px 16px 16px;
+  border-radius: 11px;
+  background-color: #f7f9ff;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.author {
+  margin-right: 20px;
+}
+.Annual {
+  font-size: 14px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1f2e55;
+}
+.per-year {
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #717fa6;
+  margin-top: 3px;
+}
+.Payment-btn {
+  padding: 15px 65px 15px 64px;
+  border-radius: 11px;
+  border: none;
+  box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+  background-color: #382ae1;
+  font-size: 15px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 24px;
+  width: 100%;
+  text-align: center;
+}
+.Payment-btn:hover {
+  box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+  background-color: #766cf1;
+  cursor: pointer;
+}
+.cancel {
+  font-size: 15px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #717fa6;
+}
+.cancel:hover {
+  cursor: pointer;
+  color: #1f2e55;
+}
+@media only screen and (max-width: 1000px) {
+  .illustration-hero {
+    width: 450px;
+    height: 220px;
+  }
+  .main-container {
+    width: 450px;
+    height: 697px;
+  }
+  .second-order-container {
+    padding: 45px 48px 48px 48px;
+  }
+  .header {
+    font-size: 28px;
+  }
+  .paragraph {
+    font-size: 16px;
+  }
+  .author {
+    margin-right: 80px;
+  }
+  .Annual {
+    font-size: 16px;
+  }
+  .per-year {
+    font-size: 16px;
+  }
+  .change {
+    font-size: 14px;
+  }
+}
